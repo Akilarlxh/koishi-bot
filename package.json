@@ -1,0 +1,16 @@
+{
+  "name": "koishi",
+  "version": "1.0.0",
+  "description": "qqbot",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "koishi": "^3.12.3"
+  },
+  "dependencies": {
+    "koishi-adapter-onebot": "^3.1.0",
+    "koishi-plugin-chat": "^0.5.3",
+    "koishi-plugin-common": "^4.3.1",
+    "koishi-plugin-webui": "^4.6.3"
+  }
+}
