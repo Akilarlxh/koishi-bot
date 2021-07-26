@@ -336,19 +336,6 @@ reply: `哔哗：有被冒犯到。你礼貌吗？`
 // reply: `
 // `},
 ],
-// 复读机判定
-onRepeat: (state) =>
-  state.times >= 2 &&
-  state.content === "确实" &&
-  "刷屏是坏习惯，好孩子不要学",
-onRepeat: {
-  minTimes: 3,
-  probability: 0.5,
-},
-onRepeat: (state) =>
-  state.users[session.userId] > 1 &&
-  segment.at(session.userId) + "抓到你了，就是你在带头刷屏",
-},
   webui: {},
   './my-plugin': {},
   },
