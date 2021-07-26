@@ -123,9 +123,9 @@
   integrity sha1-k+Jb+e51/g/YC1lLxP6w6GIRG1o=
 
 "@types/node@*":
-  version "16.4.0"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-16.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.4.0.tgz#2c219eaa3b8d1e4d04f4dd6e40bc68c7467d5272"
-  integrity sha1-LCGeqjuNHk0E9N1uQLxox0Z9UnI=
+  version "16.4.3"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-16.4.3.tgz?cache=0&sync_timestamp=1627257813519&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.4.3.tgz#c01c1a215721f6dec71b47d88b4687463601ba48"
+  integrity sha1-wBwaIVch9t7HG0fYi0aHRjYBukg=
 
 "@types/qs@*":
   version "6.9.7"
@@ -556,8 +556,8 @@ koa@^2.13.1:
 
 koishi-adapter-onebot@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.yarnpkg.com/koishi-adapter-onebot/-/koishi-adapter-onebot-3.1.0.tgz#b84f65c9ea71ed0799190a4fd682487451764952"
-  integrity sha512-6IobmR9gUDOw9KR6zMQ3BDrNyhj0Hc2AG1ST+iiyEKVu3zWWfJqZl3s3J42TiZKcZbXICDU/lKjv5ldTWX3iaw==
+  resolved "https://registry.nlark.com/koishi-adapter-onebot/download/koishi-adapter-onebot-3.1.0.tgz#b84f65c9ea71ed0799190a4fd682487451764952"
+  integrity sha1-uE9lyepx7QeZGQpP1oJIdFF2SVI=
   dependencies:
     axios "^0.21.1"
     koishi-utils "^4.2.3"
@@ -580,20 +580,15 @@ koishi-core@^3.12.3:
     koishi-utils "^4.2.3"
     lru-cache "^6.0.0"
 
-koishi-plugin-chat@^0.5.3:
-  version "0.5.3"
-  resolved "https://registry.nlark.com/koishi-plugin-chat/download/koishi-plugin-chat-0.5.3.tgz#b3e305359c288ab6f91c53a13e5d49da7ea5bf3f"
-  integrity sha1-s+MFNZwoirb5HFOhPl1J2n6lvz8=
-
 koishi-plugin-common@^4.3.1:
   version "4.3.1"
-  resolved "https://registry.yarnpkg.com/koishi-plugin-common/-/koishi-plugin-common-4.3.1.tgz#9fda46b93aba94a90bf1894aeeb5fee1caa204ef"
-  integrity sha512-eqPDYmmiO//0l7nPhvrig4PNBZf5KMkMBU5+RcW/UqLkXEegoAEjBWMHyPpiF7DX56dLFVSH300vMQB5OvneXw==
+  resolved "https://registry.nlark.com/koishi-plugin-common/download/koishi-plugin-common-4.3.1.tgz#9fda46b93aba94a90bf1894aeeb5fee1caa204ef"
+  integrity sha1-n9pGuTq6lKkL8YlK7rX+4cqiBO8=
 
 koishi-plugin-webui@^4.6.3:
   version "4.6.3"
-  resolved "https://registry.yarnpkg.com/koishi-plugin-webui/-/koishi-plugin-webui-4.6.3.tgz#7ca34b3c6c9ee8657996f07b5031245a3583ebf3"
-  integrity sha512-djEHeFdK2FHQ/rxmrgJrB3jQqG/itA4d8oUgu6ZovEhiErPe2WUJAe9pOLn3m/65KqZalebqccny1O/BKdN8dA==
+  resolved "https://registry.nlark.com/koishi-plugin-webui/download/koishi-plugin-webui-4.6.3.tgz#7ca34b3c6c9ee8657996f07b5031245a3583ebf3"
+  integrity sha1-fKNLPGye6GV5lvB7UDEkWjWD6/M=
   dependencies:
     semver "^7.3.5"
     systeminformation "^5.6.14"
@@ -710,8 +705,8 @@ prompts@^2.4.1:
 
 qface@1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/qface/-/qface-1.1.0.tgz#63643ea11baf96ae40243c3b788d95ad861a3592"
-  integrity sha512-NQ86A5bZPUO2m/t9P1VzncwuukM/5dCeLwXO5tfEvkYeAvBrXnrQLPngPxDRITIIm+eVb9NXu+YYVca3wdGmBg==
+  resolved "https://registry.nlark.com/qface/download/qface-1.1.0.tgz#63643ea11baf96ae40243c3b788d95ad861a3592"
+  integrity sha1-Y2Q+oRuvlq5AJDw7eI2VrYYaNZI=
 
 qs@^6.5.2:
   version "6.10.1"
@@ -749,8 +744,8 @@ safe-buffer@5.1.2:
 
 semver@^7.3.5:
   version "7.3.5"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
-  integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
+  resolved "https://registry.nlark.com/semver/download/semver-7.3.5.tgz?cache=0&sync_timestamp=1618846864940&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
+  integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
   dependencies:
     lru-cache "^6.0.0"
 
@@ -791,9 +786,9 @@ supports-color@^8.1.0:
     has-flag "^4.0.0"
 
 systeminformation@^5.6.14:
-  version "5.7.8"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.7.8.tgz#92bea0b28f3a04c5b3a9791ba34313ec6cdd8cb3"
-  integrity sha512-gpFGDPtOtWDxMaQ6/7oe2XM/4ErgSvev1l3sdxChnm1AqDJKzZ3cu+VK7Dq1N02pChPiNNsIbUwe6dCLixfWRg==
+  version "5.7.9"
+  resolved "https://registry.nlark.com/systeminformation/download/systeminformation-5.7.9.tgz#914f6ed37b7616675aae515c845818faa64b01b4"
+  integrity sha1-kU9u03t2FmdarlFchFgY+qZLAbQ=
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -832,8 +827,8 @@ vary@^1.1.2:
 
 ws@^7.4.5:
   version "7.5.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
-  integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
+  resolved "https://registry.nlark.com/ws/download/ws-7.5.3.tgz?cache=0&sync_timestamp=1625897031722&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fws%2Fdownload%2Fws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
+  integrity sha1-Fgg1tjx9l7+rQY/BuKn87SrAGnQ=
 
 yallist@^4.0.0:
   version "4.0.0"
