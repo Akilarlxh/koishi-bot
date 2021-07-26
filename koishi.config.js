@@ -244,10 +244,11 @@ VScode也同样具备丰富的插件市场，不过从店长的使用体验来�
 `},
 {
 match: /(?=图床选用)/,
-reply: `目前来看，最佳的图床方案是采用各大服务商提供的cos或者oss服务。
-其次是利用github存储图片并使用jsdelivr的CDN加速服务。
-糖果屋使用的图床方案可以参考[NPM图床的使用方案]： akilar.top/posts/3e956346/，
-此方案在github+jsdelivr的基础上延伸，增加npm的备份，并充分利用npm丰富的国内镜像节点。
+reply: `目前来看，最佳的图床方案是采用各大服务商提供的 cos 或者 oss 服务。
+其次是利用 github 存储图片并使用 jsdelivr 的 CDN 加速服务。
+糖果屋使用的图床方案可以参考
+[NPM图床的使用方案]： https://akilar.top/posts/3e956346/，
+此方案在 github + jsdelivr 的基础上延伸，增加 npm 的备份，并充分利用npm丰富的国内镜像节点。
 `},
 {
 match: /(?=Vercel访问)/,
