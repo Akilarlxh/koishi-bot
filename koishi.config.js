@@ -37,6 +37,7 @@ reply: `现在可以公开的情报
 14.Vercel访问不了
 15.本地修改提交后与线上不一致
 16.Twikoo登录失败
+17.新手任务学习分支线
 ------------------------
 `
 },
@@ -280,6 +281,28 @@ reply: `如果你是指之前输入密码还能正常登录，但是最近哪怕
 这种情况一般是腾讯云函数版本特有，应该是因为在配置好登录私钥之后，又在后台重新下载了登录私钥，导致之前配置的登录私钥失效了，
 解决方案是到 https://console.cloud.tencent.com/tcb/database/collection/config
  云开发控制台->数据库里面，找到config，将重新下载的私钥内容覆盖到 CREDENTIALS ，即重新配置私钥即可。
+`},
+{
+match: /(?=新手任务)/,
+reply: `Hexo博客新手任务学习分支线：
+
+主线任务1：根据博客搭建教程完成博客的本地搭建，配合github完成线上部署。
+教程链接：https://akilar.top/posts/6ef63e2d/
+
+主线任务2：在根目录[Blogroot]下打开终端,使用 hexo new post <title> 新建一篇文章。可以在[Blogroot]/source/_post/目录下找到新建的文章。可以通过修改[Blogroot]/scaffolds/post.md的模板内容来改变默认生成的文章格式。
+教程链接：https://hexo.io/zh-cn/docs/writing
+
+支线任务1：学习markdown基本语法，使用markdown语法编写博客。
+教程链接：https://guides.github.com/features/mastering-markdown/
+
+支线任务2：熟练掌握markdown基本语法后，可以使用外挂标签丰富博客文章的格式。
+教程链接：https://akilar.top/posts/615e2dec/
+
+主线任务3：学习github action，将博客源码托管至github，并通过github action完成线上部署。
+教程链接：https://akilar.top/posts/f752c86d/
+
+支线任务3：使用Vercel部署博客网页，进一步提高访问速度
+教程链接：https://akilar.top/posts/812734f8/
 `},
 {
 match: /(?=老板娘)/,
