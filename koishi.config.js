@@ -77,7 +77,7 @@ comments:
 每个主题自带的front-matter不一定相同。详情需要参阅对应的主题文档。
 butterfly主题的front-matter可以参考：
 https://butterfly.js.org/posts/dc584b87/#Front-matter
-您可以通过修改[Blogroot]\scaffolds\目录下的模板文件来配置默认的front-matter。
+您可以通过修改[Blogroot]/scaffolds/目录下的模板文件来配置默认的front-matter。
 `},
 {
 match: /(?=标签分类)/,
