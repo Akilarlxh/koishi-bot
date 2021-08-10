@@ -462,7 +462,7 @@ reply: `目前来看，最佳的图床方案是采用各大服务商提供的 co
 此方案在 github + jsdelivr 的基础上延伸，增加 npm 的备份，并充分利用npm丰富的国内镜像节点。
 `},
 {
-match: /(?=14)/,
+match: /(?=#14)/,
 reply: `Vercel本身就对线路存在一定的挑剔性。对移动的线路特别不友好。
 如果是这种硬性网络原因，建议配合多线部署，不友好的线路就链到coding或者netlify下面。
 多线部署的基本原理参考此文：https://akilar.top/posts/54c08a4b/
