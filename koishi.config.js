@@ -494,17 +494,21 @@ https://gist.github.com/ChenYFan/fc2bd4ec1795766f2613b52ba123c0f8
 `},
 {
 match: /(?=#15)/,
-reply: `本地修改成功后，与线上不一致的情况大致可以划分为两种。
+reply: `本地修改成功后，与线上不一致的情况大致可以划分为三种。
 一种是页面缓存，这个很大程度上是因为浏览器缓存、cdn缓存造成的。浏览器缓存可以通过按 Ctrl+F5 强制刷新来解决。CDN缓存较为麻烦，如果是自己的服务器使用的CDN服务，那么服务商应该会提供刷新CDN服务的渠道。如果是jsdelivr的CDN，可以使用purge接口来刷新，使用方法是将你要刷新的cdn链接 如 https://cdn.jsdelivr.net/npm/package@version/file 中的cdn改成purge 即 https://purge.jsdelivr.net/npm/package@version/file
 
 另一种情况一般出现在评论类型的插件中，原因是没有在后端添加安全域名。请按照你参考的评论文档去相应的后端服务控制台添加安全域名。
+
+另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.top/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
 `},
 {
 match: /(?=与线上不一致)/,
-reply: `本地修改成功后，与线上不一致的情况大致可以划分为两种。
+reply: `本地修改成功后，与线上不一致的情况大致可以划分为三种。
 一种是页面缓存，这个很大程度上是因为浏览器缓存、cdn缓存造成的。浏览器缓存可以通过按 Ctrl+F5 强制刷新来解决。CDN缓存较为麻烦，如果是自己的服务器使用的CDN服务，那么服务商应该会提供刷新CDN服务的渠道。如果是jsdelivr的CDN，可以使用purge接口来刷新，使用方法是将你要刷新的cdn链接 如 https://cdn.jsdelivr.net/npm/package@version/file 中的cdn改成purge 即 https://purge.jsdelivr.net/npm/package@version/file
 
 另一种情况一般出现在评论类型的插件中，原因是没有在后端添加安全域名。请按照你参考的评论文档去相应的后端服务控制台添加安全域名。
+
+另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.top/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
 `},
 {
 match: /(?=#16)/,
