@@ -1,7 +1,0 @@
-[2021-08-11 09:50:08] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
-[2021-08-11 09:50:38] [WARNING]: 获取信息时出现错误: leveldb: not found id: -861768172 
-[2021-08-11 09:51:13] [WARNING]: 获取信息时出现错误: leveldb: not found id: -861768172 
-[2021-08-11 15:05:55] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
-[2021-08-11 17:26:55] [WARNING]: 上报Event到 HTTP 服务器 127.0.0.1:20202 时出现错误: Post "http://127.0.0.1:20202": EOF 将重试. 
-[2021-08-11 17:26:55] [WARNING]: 上报Event数据 {"anonymous":null,"font":0,"group_id":674527148,"message":"就是我看id应该在页面找不到这个..","message_id":-1346418878,"message_seq":252825,"message_type":"group","post_type":"message","raw_message":"就是我看id应该在页面找不到这个..","self_id":3553174998,"sender":{"age":0,"area":"","card":"锅巴丨yikun1025.github.io","level":"","nickname":"锅巴","role":"member","sex":"unknown","title":"","user_id":273123595},"sub_type":"normal","time":1628674015,"user_id":273123595}
- 到 127.0.0.1:20202 失败: Post "http://127.0.0.1:20202": EOF 

@@ -1,7 +1,0 @@
-[2021-08-09 15:24:23] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
-[2021-08-09 15:24:28] [WARNING]: 上报Event到 HTTP 服务器 127.0.0.1:20202 时出现错误: Post "http://127.0.0.1:20202": dial tcp 127.0.0.1:20202: connectex: No connection could be made because the target machine actively refused it. 将重试. 
-[2021-08-09 15:24:28] [WARNING]: 上报Event数据 {"group_id":674527148,"honor_type":"talkative","notice_type":"notify","post_type":"notice","self_id":3553174998,"sub_type":"honor","time":1628493866,"user_id":3356620252}
- 到 127.0.0.1:20202 失败: Post "http://127.0.0.1:20202": dial tcp 127.0.0.1:20202: connectex: No connection could be made because the target machine actively refused it. 
-[2021-08-09 15:24:28] [WARNING]: 上报Event到 HTTP 服务器 127.0.0.1:20202 时出现错误: Post "http://127.0.0.1:20202": dial tcp 127.0.0.1:20202: connectex: No connection could be made because the target machine actively refused it. 将重试. 
-[2021-08-09 15:24:28] [WARNING]: 上报Event数据 {"group_id":674527148,"honor_type":"talkative","notice_type":"notify","post_type":"notice","self_id":3553174998,"sub_type":"honor","time":1628493866,"user_id":3356620252}
- 到 127.0.0.1:20202 失败: Post "http://127.0.0.1:20202": dial tcp 127.0.0.1:20202: connectex: No connection could be made because the target machine actively refused it. 
