@@ -184,8 +184,8 @@ reply: `首先排查是修改了哪些内容。同时，每次修改了博客的
 
 
 如果是在博客搭建过程中遇到了问题，可以直接下载群文件中的menu.sh，搭配糖果屋优化日记中的第一节搭建教程一起使用。
-win10：https://akilar.top/posts/6ef63e2d/
-ubuntu：https://akilar.top/posts/e5502ef6/
+win10：https://akilar.vercel.app/posts/6ef63e2d/
+ubuntu：https://akilar.vercel.app/posts/e5502ef6/
 
 如果是涉及到pug，styl，yml等语法格式严格的文件的修改，请先确认你使用的不是记事本或者notepad++。
 因为notepad++会将四个空格和两个空格的缩进识别成一样的，这对缩进严格的语法来说是致命的。
@@ -206,8 +206,8 @@ reply: `首先排查是修改了哪些内容。同时，每次修改了博客的
 
 
 如果是在博客搭建过程中遇到了问题，可以直接下载群文件中的menu.sh，搭配糖果屋优化日记中的第一节搭建教程一起使用。
-win10：https://akilar.top/posts/6ef63e2d/
-ubuntu：https://akilar.top/posts/e5502ef6/
+win10：https://akilar.vercel.app/posts/6ef63e2d/
+ubuntu：https://akilar.vercel.app/posts/e5502ef6/
 
 如果是涉及到pug，styl，yml等语法格式严格的文件的修改，请先确认你使用的不是记事本或者notepad++。
 因为notepad++会将四个空格和两个空格的缩进识别成一样的，这对缩进严格的语法来说是致命的。
@@ -252,7 +252,7 @@ reply: `欢迎光临糖果屋。本群的提问流程详情请参考群公告或
 {
 match: /(?=#05)/,
 reply: `自定义魔改CSS的方式参考糖果屋教程：
-https://akilar.top/posts/ebf20e02/
+https://akilar.vercel.app/posts/ebf20e02/
 目前已有的自定义魔改内容包括
 - 魔改样式引入方案
 - 字体样式修改(包含字体的引用和使用)
@@ -268,7 +268,7 @@ https://akilar.top/posts/ebf20e02/
 {
 match: /(?=自定义魔改)/,
 reply: `自定义魔改CSS的方式参考糖果屋教程：
-https://akilar.top/posts/ebf20e02/
+https://akilar.vercel.app/posts/ebf20e02/
 目前已有的自定义魔改内容包括
 - 魔改样式引入方案
 - 字体样式修改(包含字体的引用和使用)
@@ -284,14 +284,14 @@ https://akilar.top/posts/ebf20e02/
 {
 match: /(?=#06)/,
 reply: `糖果屋的看板娘使用的是张书樵大佬基于fghrsh大佬的前端方案魔改整合的项目。
-教程参看：https://akilar.top/posts/5b8f515f/
+教程参看：https://akilar.vercel.app/posts/5b8f515f/
 因为有涉及到js和css的引入，单纯使用的话看教程足矣，但想要活用（比如修改看板娘位置）还需要自己多多学习css语法。
 部分涉及看板娘位置调整的提问可以翻找一下教程帖的评论区。
 `},
 {
 match: /(?=添加看板娘)/,
 reply: `糖果屋的看板娘使用的是张书樵大佬基于fghrsh大佬的前端方案魔改整合的项目。
-教程参看：https://akilar.top/posts/5b8f515f/
+教程参看：https://akilar.vercel.app/posts/5b8f515f/
 因为有涉及到js和css的引入，单纯使用的话看教程足矣，但想要活用（比如修改看板娘位置）还需要自己多多学习css语法。
 部分涉及看板娘位置调整的提问可以翻找一下教程帖的评论区。
 `},
@@ -299,14 +299,14 @@ reply: `糖果屋的看板娘使用的是张书樵大佬基于fghrsh大佬的前
 match: /(?=#07)/,
 reply: `关于博客的提速是一个较为长线的过程。你需要重点掌握包括静态资源压缩，图床迁移，CDN加速，异步加载等内容。
 详细的优化路线可以参考糖果屋的优化日记：
-https://akilar.top/posts/7c16c4bb/
+https://akilar.vercel.app/posts/7c16c4bb/
 
 学习分支推荐优先进行Vercel部署：
-https://akilar.top/posts/812734f8/
+https://akilar.vercel.app/posts/812734f8/
 再来是掌握Github Action的基础部署：
-https://akilar.top/posts/f752c86d/
+https://akilar.vercel.app/posts/f752c86d/
 之后就是熟读静态资源加速方案，对博客进行静态资源压缩，图床迁移，CDN加速：
-https://akilar.top/posts/969dffe3/
+https://akilar.vercel.app/posts/969dffe3/
 
 学习顺序没有绝对规定。如果涉及教程联动的，帖内也会给出对应的链接。
 `},
@@ -314,14 +314,14 @@ https://akilar.top/posts/969dffe3/
 match: /(?=博客提速)/,
 reply: `关于博客的提速是一个较为长线的过程。你需要重点掌握包括静态资源压缩，图床迁移，CDN加速，异步加载等内容。
 详细的优化路线可以参考糖果屋的优化日记：
-https://akilar.top/posts/7c16c4bb/
+https://akilar.vercel.app/posts/7c16c4bb/
 
 学习分支推荐优先进行Vercel部署：
-https://akilar.top/posts/812734f8/
+https://akilar.vercel.app/posts/812734f8/
 再来是掌握Github Action的基础部署：
-https://akilar.top/posts/f752c86d/
+https://akilar.vercel.app/posts/f752c86d/
 之后就是熟读静态资源加速方案，对博客进行静态资源压缩，图床迁移，CDN加速：
-https://akilar.top/posts/969dffe3/
+https://akilar.vercel.app/posts/969dffe3/
 
 学习顺序没有绝对规定。如果涉及教程联动的，帖内也会给出对应的链接。
 `},
@@ -330,7 +330,7 @@ match: /(?=#08)/,
 reply: `Github访问不了一般情况下是由DNS污染导致的。
 一种办法是直接使用Clash或者V2Ray等软件，这样可以直接使用境外访问渠道。（立场上不推荐您这么做）
 另一种更好的办法是更改本地hosts，添加IP映射，具体操作方法可以参考糖果屋内教程：
-https://akilar.top/posts/61b3e163/
+https://akilar.vercel.app/posts/61b3e163/
 如果实在紧急，可以请群内成员帮忙提供实时IP映射表。
 按照CYFAN的说法，使用cloudflare反代来访问github也是种办法。可以尝试自己搜索方案。学会了记得来教我。
 `},
@@ -339,7 +339,7 @@ match: /(?=github访问不了)/,
 reply: `Github访问不了一般情况下是由DNS污染导致的。
 一种办法是直接使用Clash或者V2Ray等软件，这样可以直接使用境外访问渠道。（立场上不推荐您这么做）
 另一种更好的办法是更改本地hosts，添加IP映射，具体操作方法可以参考糖果屋内教程：
-https://akilar.top/posts/61b3e163/
+https://akilar.vercel.app/posts/61b3e163/
 如果实在紧急，可以请群内成员帮忙提供实时IP映射表。
 按照CYFAN的说法，使用cloudflare反代来访问github也是种办法。可以尝试自己搜索方案。学会了记得来教我。
 `},
@@ -351,7 +351,7 @@ reply: `以下仅以Butterfly主题为例进行阐述，其他主题的升级方
 一是继续做钉子户。大多数情况下我真的建议你这么做。挑个喜欢的版本养老挺好的。
 二是删档重来。如果魔改的内容不算太繁复的话，这么做是合理的。
 三，在做好心理准备的情况下，挑战使用git diff处理的方式进行平滑升级。
-具体操作可以参看糖果屋教程：https://akilar.top/posts/bbf68ad4/
+具体操作可以参看糖果屋教程：https://akilar.vercel.app/posts/bbf68ad4/
 此处给出个人经验建议，可以活用github的compare功能，挑出升级时变动的几个文件。然后按照路径逐个替换当前的文件，这样就只需要处理这几个变动的文件。而不需要去理会以前魔改过的文件。一般情况下，主题升级的文件数目在40个左右，处理起来不算太难。
 `},
 {
@@ -362,7 +362,7 @@ reply: `以下仅以Butterfly主题为例进行阐述，其他主题的升级方
 一是继续做钉子户。大多数情况下我真的建议你这么做。挑个喜欢的版本养老挺好的。
 二是删档重来。如果魔改的内容不算太繁复的话，这么做是合理的。
 三，在做好心理准备的情况下，挑战使用git diff处理的方式进行平滑升级。
-具体操作可以参看糖果屋教程：https://akilar.top/posts/bbf68ad4/
+具体操作可以参看糖果屋教程：https://akilar.vercel.app/posts/bbf68ad4/
 此处给出个人经验建议，可以活用github的compare功能，挑出升级时变动的几个文件。然后按照路径逐个替换当前的文件，这样就只需要处理这几个变动的文件。而不需要去理会以前魔改过的文件。一般情况下，主题升级的文件数目在40个左右，处理起来不算太难。
 `},
 {
@@ -385,7 +385,7 @@ reply: `推测是友链样式中某个img标签定位重写的作用域没有限
   position:static!important;
 }
 
-不清楚如何添加自定义样式的可以参考：https://akilar.top/posts/ebf20e02/
+不清楚如何添加自定义样式的可以参考：https://akilar.vercel.app/posts/ebf20e02/
 `},
 {
 match: /(?=相册样式错乱)/,
@@ -407,33 +407,33 @@ reply: `推测是友链样式中某个img标签定位重写的作用域没有限
   position:static!important;
 }
 
-不清楚如何添加自定义样式的可以参考：https://akilar.top/posts/ebf20e02/
+不清楚如何添加自定义样式的可以参考：https://akilar.vercel.app/posts/ebf20e02/
 `},
 {
 match: /(?=#11)/,
 reply: `外挂标签能在博客编写过程中帮助我们快速的填写重复的代码片段。
 糖果屋的外挂标签已经整合成npm插件，基本上所有butterfly主题版本都可以使用。
 具体配置教程及外挂标签文档请参看站内教程：
-https://akilar.top/posts/615e2dec/
+https://akilar.vercel.app/posts/615e2dec/
 如果您想转载糖果屋的外挂标签文档，群文件内有markdown源文件。唯一的要求就是转载请注明出处。
 欢迎诸位客人尝试编写属于自己的外挂标签，DIY教程可以参考：
-https://akilar.top/posts/e2bf861f/
+https://akilar.vercel.app/posts/e2bf861f/
 `},
 {
 match: /(?=外挂标签详解)/,
 reply: `外挂标签能在博客编写过程中帮助我们快速的填写重复的代码片段。
 糖果屋的外挂标签已经整合成npm插件，基本上所有butterfly主题版本都可以使用。
 具体配置教程及外挂标签文档请参看站内教程：
-https://akilar.top/posts/615e2dec/
+https://akilar.vercel.app/posts/615e2dec/
 如果您想转载糖果屋的外挂标签文档，群文件内有markdown源文件。唯一的要求就是转载请注明出处。
 欢迎诸位客人尝试编写属于自己的外挂标签，DIY教程可以参考：
-https://akilar.top/posts/e2bf861f/
+https://akilar.vercel.app/posts/e2bf861f/
 `},
 {
 match: /(?=#12)/,
 reply: `目前使用体验较好的博客编辑器用Atom，VScode。（冰老师用铅笔！）
 糖果屋使用的是Atom，这款编辑器的优点是具备强大的插件市场，缺点是插件市场在国内经常打不开。不过可以通过换源解决这个问题。Atom自带的git plus图形化界面还能有效帮助那些不清楚git指令的萌新。Atom配置教程可以参考站内教程：
-https://akilar.top/posts/498e6e74/
+https://akilar.vercel.app/posts/498e6e74/
 
 VScode也同样具备丰富的插件市场，不过从店长的使用体验来看，还是Atom的插件市场对小白亲和度高一些。
 关于VScode的配置和插件推荐可以咨询群内使用VScode的客人。
@@ -442,7 +442,7 @@ VScode也同样具备丰富的插件市场，不过从店长的使用体验来�
 match: /(?=博客编辑器)/,
 reply: `目前使用体验较好的博客编辑器用Atom，VScode。（冰老师用铅笔！）
 糖果屋使用的是Atom，这款编辑器的优点是具备强大的插件市场，缺点是插件市场在国内经常打不开。不过可以通过换源解决这个问题。Atom自带的git plus图形化界面还能有效帮助那些不清楚git指令的萌新。Atom配置教程可以参考站内教程：
-https://akilar.top/posts/498e6e74/
+https://akilar.vercel.app/posts/498e6e74/
 
 VScode也同样具备丰富的插件市场，不过从店长的使用体验来看，还是Atom的插件市场对小白亲和度高一些。
 关于VScode的配置和插件推荐可以咨询群内使用VScode的客人。
@@ -452,7 +452,7 @@ match: /(?=#13)/,
 reply: `目前来看，最佳的图床方案是采用各大服务商提供的 cos 或者 oss 服务。
 其次是利用 github 存储图片并使用 jsdelivr 的 CDN 加速服务。
 糖果屋使用的图床方案可以参考
-[NPM图床的使用方案]： https://akilar.top/posts/3e956346/，
+[NPM图床的使用方案]： https://akilar.vercel.app/posts/3e956346/，
 此方案在 github + jsdelivr 的基础上延伸，增加 npm 的备份，并充分利用npm丰富的国内镜像节点。
 `},
 {
@@ -460,14 +460,14 @@ match: /(?=图床选用)/,
 reply: `目前来看，最佳的图床方案是采用各大服务商提供的 cos 或者 oss 服务。
 其次是利用 github 存储图片并使用 jsdelivr 的 CDN 加速服务。
 糖果屋使用的图床方案可以参考
-[NPM图床的使用方案]： https://akilar.top/posts/3e956346/，
+[NPM图床的使用方案]： https://akilar.vercel.app/posts/3e956346/，
 此方案在 github + jsdelivr 的基础上延伸，增加 npm 的备份，并充分利用npm丰富的国内镜像节点。
 `},
 {
 match: /(?=#14)/,
 reply: `Vercel本身就对线路存在一定的挑剔性。对移动的线路特别不友好。
 如果是这种硬性网络原因，建议配合多线部署，不友好的线路就链到coding或者netlify下面。
-多线部署的基本原理参考此文：https://akilar.top/posts/54c08a4b/
+多线部署的基本原理参考此文：https://akilar.vercel.app/posts/54c08a4b/
 
 2021年5月10日起，Vercel的大陆IP相继被墙，官方发布的通告建议是修改解析记录。
 到你的dns解析服务商那里修改对应的解析记录。
@@ -482,7 +482,7 @@ https://gist.github.com/ChenYFan/fc2bd4ec1795766f2613b52ba123c0f8
 match: /(?=Vercel访问)/,
 reply: `Vercel本身就对线路存在一定的挑剔性。对移动的线路特别不友好。
 如果是这种硬性网络原因，建议配合多线部署，不友好的线路就链到coding或者netlify下面。
-多线部署的基本原理参考此文：https://akilar.top/posts/54c08a4b/
+多线部署的基本原理参考此文：https://akilar.vercel.app/posts/54c08a4b/
 
 2021年5月10日起，Vercel的大陆IP相继被墙，官方发布的通告建议是修改解析记录。
 到你的dns解析服务商那里修改对应的解析记录。
@@ -500,7 +500,7 @@ reply: `本地修改成功后，与线上不一致的情况大致可以划分为
 
 另一种情况一般出现在评论类型的插件中，原因是没有在后端添加安全域名。请按照你参考的评论文档去相应的后端服务控制台添加安全域名。
 
-另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.top/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
+另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.vercel.app/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
 `},
 {
 match: /(?=与线上不一致)/,
@@ -509,7 +509,7 @@ reply: `本地修改成功后，与线上不一致的情况大致可以划分为
 
 另一种情况一般出现在评论类型的插件中，原因是没有在后端添加安全域名。请按照你参考的评论文档去相应的后端服务控制台添加安全域名。
 
-另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.top/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
+另外还有一种特殊情况，如果使用了gulp插件中的babel插件，因为它会将ES6降级为ES5，导致部分js失效。而在本地预览时，其实是读的你source目录下未被压缩的内容，所以会出现本地没问题，线上出问题的情况。参照优化日记中关于gulp的部分：https://akilar.vercel.app/posts/969dffe3/ 自行添加屏蔽项或者换用terser压缩插件。
 `},
 {
 match: /(?=#16)/,
@@ -534,7 +534,7 @@ match: /(?=#17)/,
 reply: `Hexo博客新手任务学习分支线：
 
 主线任务1：根据博客搭建教程完成博客的本地搭建，配合github完成线上部署。
-教程链接：https://akilar.top/posts/6ef63e2d/
+教程链接：https://akilar.vercel.app/posts/6ef63e2d/
 任务难度：⭐⭐⭐
 
 支线任务1：挑选一款合适的主题，推荐使用Butterfly主题，跟随主题文档完成基本配置。
@@ -550,23 +550,23 @@ reply: `Hexo博客新手任务学习分支线：
 任务难度：⭐⭐
 
 支线任务3：熟练掌握markdown基本语法后，可以使用外挂标签丰富博客文章的格式。
-教程链接：https://akilar.top/posts/615e2dec/
+教程链接：https://akilar.vercel.app/posts/615e2dec/
 任务难度：⭐⭐
 
 主线任务3：学习github action，将博客源码托管至github，并通过github action完成线上部署。
-教程链接：https://akilar.top/posts/f752c86d/
+教程链接：https://akilar.vercel.app/posts/f752c86d/
 任务难度：⭐⭐⭐⭐
 
 支线任务4：使用Vercel部署博客网页，进一步提高访问速度
-教程链接：https://akilar.top/posts/812734f8/
+教程链接：https://akilar.vercel.app/posts/812734f8/
 任务难度：⭐
 
 博客优化副本任务：按照糖果屋优化日记的教程索引，完成博客基本优化
-教程链接：https://akilar.top/posts/7c16c4bb/
+教程链接：https://akilar.vercel.app/posts/7c16c4bb/
 任务难度：⭐⭐⭐⭐⭐
 
 博客美化副本任务：按照糖果屋美化日记的教程索引，挑选喜爱的组件对博客进行自定义美化。
-教程链接：https://akilar.top/posts/f99b208/
+教程链接：https://akilar.vercel.app/posts/f99b208/
 任务难度：难度不详，遇强则强
 `},
 {
@@ -574,7 +574,7 @@ match: /(?=新手任务)/,
 reply: `Hexo博客新手任务学习分支线：
 
 主线任务1：根据博客搭建教程完成博客的本地搭建，配合github完成线上部署。
-教程链接：https://akilar.top/posts/6ef63e2d/
+教程链接：https://akilar.vercel.app/posts/6ef63e2d/
 任务难度：⭐⭐⭐
 
 支线任务1：挑选一款合适的主题，推荐使用Butterfly主题，跟随主题文档完成基本配置。
@@ -590,23 +590,23 @@ reply: `Hexo博客新手任务学习分支线：
 任务难度：⭐⭐
 
 支线任务3：熟练掌握markdown基本语法后，可以使用外挂标签丰富博客文章的格式。
-教程链接：https://akilar.top/posts/615e2dec/
+教程链接：https://akilar.vercel.app/posts/615e2dec/
 任务难度：⭐⭐
 
 主线任务3：学习github action，将博客源码托管至github，并通过github action完成线上部署。
-教程链接：https://akilar.top/posts/f752c86d/
+教程链接：https://akilar.vercel.app/posts/f752c86d/
 任务难度：⭐⭐⭐⭐
 
 支线任务4：使用Vercel部署博客网页，进一步提高访问速度
-教程链接：https://akilar.top/posts/812734f8/
+教程链接：https://akilar.vercel.app/posts/812734f8/
 任务难度：⭐
 
 博客优化副本任务：按照糖果屋优化日记的教程索引，完成博客基本优化
-教程链接：https://akilar.top/posts/7c16c4bb/
+教程链接：https://akilar.vercel.app/posts/7c16c4bb/
 任务难度：⭐⭐⭐⭐⭐
 
 博客美化副本任务：按照糖果屋美化日记的教程索引，挑选喜爱的组件对博客进行自定义美化。
-教程链接：https://akilar.top/posts/f99b208/
+教程链接：https://akilar.vercel.app/posts/f99b208/
 任务难度：难度不详，遇强则强
 `},
 {
@@ -624,13 +624,13 @@ https://koishi.js.org/
 {
 match: /(?=#19)/,
 reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js.org,此处需要注意的地方，也是官方文档没有特别的指明的一点，在配置shuoshuo这一class的时候，要记得将get和find权限设为所有用户，如此才能让前端获取到数据库内的说说信息。
-前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.top/posts/f1004b1d/
+前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.vercel.app/posts/f1004b1d/
 此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
 `},
 {
 match: /(?=Artitalk说说配置)/,
 reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js.org,此处需要注意的地方，也是官方文档没有特别的指明的一点，在配置shuoshuo这一class的时候，要记得将get和find权限设为所有用户，如此才能让前端获取到数据库内的说说信息。
-前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.top/posts/f1004b1d/
+前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.vercel.app/posts/f1004b1d/
 此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
 `},
 
