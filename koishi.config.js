@@ -39,6 +39,7 @@ reply: `现在可以公开的情报
 #16.Twikoo登录失败
 #17.新手任务学习分支线
 #18.怎么搭建群聊机器人
+#19.Artitalk说说配置相关事项
 ------------------------
 `
 },
@@ -620,6 +621,22 @@ reply: `本群使用的QQ机器人框架是go-cqhttp + koishi
 koishi本身就有详细的文档。
 https://koishi.js.org/
 `},
+{
+match: /(?=#19)/,
+reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js.org,此处需要注意的地方，也是官方文档没有特别的指明的一点，在配置shuoshuo这一class的时候，要记得将get和find权限设为所有用户，如此才能让前端获取到数据库内的说说信息。
+前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.top/posts/f1004b1d/
+此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
+`},
+{
+match: /(?=Artitalk说说配置)/,
+reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js.org,此处需要注意的地方，也是官方文档没有特别的指明的一点，在配置shuoshuo这一class的时候，要记得将get和find权限设为所有用户，如此才能让前端获取到数据库内的说说信息。
+前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.top/posts/f1004b1d/
+此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
+`},
+
+
+
+
 {
 match: /(?=老板娘)/,
 reply: ` ▄︻┻┳═一 … ☆ヽ（≧□≦）ノ
