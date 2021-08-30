@@ -633,10 +633,16 @@ reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js
 前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.vercel.app/posts/f1004b1d/
 此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
 `},
-
-
-
-
+{
+match: /(?=#20)/,
+reply: `没什么好说的。
+https://blog.zhheo.com/p/128998ac.html
+`},
+{
+match: /(?=Spawn failed)/,
+reply: `没什么好说的。
+https://blog.zhheo.com/p/128998ac.html
+`},
 {
 match: /(?=老板娘)/,
 reply: ` ▄︻┻┳═一 … ☆ヽ（≧□≦）ノ
