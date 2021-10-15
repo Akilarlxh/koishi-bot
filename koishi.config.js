@@ -37,10 +37,11 @@ reply: `现在可以公开的情报
 #14.Vercel访问不了
 #15.本地修改提交后与线上不一致
 #16.Twikoo登录失败
-#17.新手任务学习分支线
-#18.怎么搭建群聊机器人
-#19.Artitalk说说配置相关事项
-#20.Spawn failed报错解决方案
+#17.编写环境搭建学习分支线
+#18.新手任务学习分支线
+#19.怎么搭建群聊机器人
+#20.Artitalk说说配置相关事项
+#21.Spawn failed报错解决方案
 ------------------------
 `
 },
@@ -532,6 +533,60 @@ reply: `如果你是指之前输入密码还能正常登录，但是最近哪怕
 `},
 {
 match: /(?=#17)/,
+reply: `编写环境搭建学习任务分支线
+
+前置任务1:根据教程配置一款文本编辑器，推荐使用Atom。
+教程链接: https://akilar.top/posts/498e6e74/
+任务难度: ⭐⭐⭐
+PS:Atom下载太慢可以直接通过群文件下载安装包。
+
+支线任务1:考虑到国内时不时没法正常访问github或者访问速度较慢，可以使用爬虫爬取实时IP映射来加速访问。
+教程链接:
+    - 原理讲解详见: https://akilar.top/posts/61b3e163/,此方案需要配置本地python环境。对python有基础了解的使用此方案即可。
+    - 傻瓜式方案详见: https://freeaas.com/5db01797afd6/,经由jason同学封装为傻瓜式脚本，自带基本包，无需本地配置python环境。适合单纯想加速访问的同学。
+任务难度: ⭐
+
+前置任务2:根据教程优化一个命令行窗口，推荐使用ConEmu。
+教程链接: https://akilar.top/posts/8a76eb87/
+任务难度: ⭐⭐⭐
+
+前置任务3:根据教程配置一款浏览器，推荐使用Microsoft Edge新版
+教程链接: https://akilar.top/posts/8c8df126/
+任务难度: ⭐⭐
+
+隐藏支线复活任务:如果你玩崩了，可以按照教程重装系统。
+教程链接: https://akilar.top/posts/29cf4234/
+任务难度: ⭐⭐⭐⭐
+`},
+{
+match: /(?=编写环境搭建学习分支线)/,
+reply: `编写环境搭建学习任务分支线
+
+前置任务1:根据教程配置一款文本编辑器，推荐使用Atom。
+教程链接: https://akilar.top/posts/498e6e74/
+任务难度: ⭐⭐⭐
+PS:Atom下载太慢可以直接通过群文件下载安装包。
+
+支线任务1:考虑到国内时不时没法正常访问github或者访问速度较慢，可以使用爬虫爬取实时IP映射来加速访问。
+教程链接:
+    - 原理讲解详见: https://akilar.top/posts/61b3e163/,此方案需要配置本地python环境。对python有基础了解的使用此方案即可。
+    - 傻瓜式方案详见: https://freeaas.com/5db01797afd6/,经由jason同学封装为傻瓜式脚本，自带基本包，无需本地配置python环境。适合单纯想加速访问的同学。
+任务难度: ⭐
+
+前置任务2:根据教程优化一个命令行窗口，推荐使用ConEmu。
+教程链接: https://akilar.top/posts/8a76eb87/
+任务难度: ⭐⭐⭐
+
+前置任务3:根据教程配置一款浏览器，推荐使用Microsoft Edge新版
+教程链接: https://akilar.top/posts/8c8df126/
+任务难度: ⭐⭐
+
+隐藏支线复活任务:如果你玩崩了，可以按照教程重装系统。
+教程链接: https://akilar.top/posts/29cf4234/
+任务难度: ⭐⭐⭐⭐
+`},
+{
+match: /(?=#18)/,
 reply: `Hexo博客新手任务学习分支线：
 
 主线任务1：根据博客搭建教程完成博客的本地搭建，配合github完成线上部署。
@@ -611,7 +666,7 @@ reply: `Hexo博客新手任务学习分支线：
 任务难度：难度不详，遇强则强
 `},
 {
-match: /(?=#18)/,
+match: /(?=#19)/,
 reply: `本群使用的QQ机器人框架是go-cqhttp + koishi
 koishi本身就有详细的文档。
 https://koishi.js.org/
@@ -623,7 +678,7 @@ koishi本身就有详细的文档。
 https://koishi.js.org/
 `},
 {
-match: /(?=#19)/,
+match: /(?=#20)/,
 reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js.org,此处需要注意的地方，也是官方文档没有特别的指明的一点，在配置shuoshuo这一class的时候，要记得将get和find权限设为所有用户，如此才能让前端获取到数据库内的说说信息。
 前端配置方案，针对butterfly，可以考虑使用糖果屋插件，hexo-butterfly-artitalk-pro,配置方案参考https://akilar.vercel.app/posts/f1004b1d/
 此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
@@ -635,7 +690,7 @@ reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js
 此处需要注意的是，配置项中的serverUrl后填写的内容中，********需要替换成自己的AppId的前八位。
 `},
 {
-match: /(?=#20)/,
+match: /(?=#21)/,
 reply: `没什么好说的。
 https://blog.zhheo.com/p/128998ac.html
 `},
