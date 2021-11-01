@@ -693,12 +693,12 @@ reply: `Artitalk的配置，后端内容优先看官方文档https://artitalk.js
 `},
 {
 match: /(?=#21)/,
-reply: `没什么好说的。
+reply: `spawn failed报错是hexo的一个经典报错，造成这一报错的原因比较多样化，包括网络波动，非ssh链接，指令操作程序有误等等。洪哥（zhheo）的博客里对这些情况做了较为系统的归纳，可以参照教程逐个排错。
 https://blog.zhheo.com/p/128998ac.html
 `},
 {
 match: /(?=Spawn failed)/,
-reply: `没什么好说的。
+reply: `spawn failed报错是hexo的一个经典报错，造成这一报错的原因比较多样化，包括网络波动，非ssh链接，指令操作程序有误等等。洪哥（zhheo）的博客里对这些情况做了较为系统的归纳，可以参照教程逐个排错。
 https://blog.zhheo.com/p/128998ac.html
 `},
 {
