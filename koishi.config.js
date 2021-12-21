@@ -1,7 +1,7 @@
 // 配置项文档：https://koishi.js.org/api/app.html
 module.exports = {
   // Koishi 服务器监听的端口
-  port: 20202,
+  port: 34500,
   onebot: {
     // 对应 cqhttp 配置项 http_config.post_urls, ws_reverse_servers.reverse_url
     path: '',

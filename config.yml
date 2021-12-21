@@ -90,10 +90,10 @@ servers:
   #- ws-reverse: # 反向 Websocket
   #- pprof: #性能分析服务器
   # LambdaServer 配置
-  - lambda:
-      type: scf # scf: 腾讯云函数 aws: aws Lambda
-      middlewares:
-        <<: *default # 引用默认中间件
+  # - lambda:
+  #     type: scf # scf: 腾讯云函数 aws: aws Lambda
+  #     middlewares:
+  #       <<: *default # 引用默认中间件
   - http:
       # 服务端监听地址
       host: 127.0.0.1
@@ -106,7 +106,7 @@ servers:
         <<: *default # 引用默认中间件
       # 反向HTTP POST地址列表
       post:
-        - url: '127.0.0.1:20202'
+        - url: '127.0.0.1:34500'
           secret: ''
       #- url: '' # 地址
       #  secret: ''           # 密钥
